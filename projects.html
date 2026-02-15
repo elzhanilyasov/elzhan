@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио | Проекты</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="about.html">О себе</a></li>
+                <li><a href="projects.html" class="active">Проекты</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+            </ul>
+            <button id="theme-toggle" class="theme-btn">🌙 Темная тема</button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="projects">
+            <h1>Мои проекты</h1>
+
+            <div class="project-grid">
+                <!-- Проект 1 -->
+                <article class="project-card">
+                    <div class="project-image">📸 Скриншот</div>
+                    <h3>Сайт-портфолио</h3>
+                    <p>Мой первый проект - это портфолио, которое вы сейчас видите. Сделано на чистом HTML, CSS и JavaScript с поддержкой темной темы.</p>
+                    <p><strong>Технологии:</strong> HTML5, CSS3, JavaScript</p>
+                    <div class="project-links">
+                        <a href="#" target="_blank">🔗 Демо</a>
+                        <a href="#" target="_blank">📁 GitHub</a>
+                    </div>
+                </article>
+
+                <!-- Проект 2 -->
+                <article class="project-card">
+                    <div class="project-image">📸 Скриншот</div>
+                    <h3>Todo List приложение</h3>
+                    <p>Простое приложение для управления задачами с возможностью добавления, удаления и отметки выполненных задач.</p>
+                    <p><strong>Технологии:</strong> React, LocalStorage, CSS Modules</p>
+                    <div class="project-links">
+                        <a href="#" target="_blank">🔗 Демо</a>
+                        <a href="#" target="_blank">📁 GitHub</a>
+                    </div>
+                </article>
+
+                <!-- Проект 3 -->
+                <article class="project-card">
+                    <div class="project-image">📸 Скриншот</div>
+                    <h3>Калькулятор погоды</h3>
+                    <p>Приложение для просмотра погоды по городам с использованием OpenWeatherMap API.</p>
+                    <p><strong>Технологии:</strong> Vue.js, Axios, REST API</p>
+                    <div class="project-links">
+                        <a href="#" target="_blank">🔗 Демо</a>
+                        <a href="#" target="_blank">📁 GitHub</a>
+                    </div>
+                </article>
+            </div>
+
+            <section class="future-projects">
+                <h2>Будущие проекты</h2>
+                <ul>
+                    <li><strong>Интернет-магазин:</strong> Полноценный интернет-магазин на MERN стеке (MongoDB, Express, React, Node.js)</li>
+                    <li><strong>Чат-приложение:</strong> Real-time чат с использованием Socket.io и React</li>
+                    <li><strong>Приложение для заметок:</strong> Облачное приложение для заметок с авторизацией и синхронизацией</li>
+                </ul>
+            </section>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 | Иван Иванов (ivan_dev)</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
